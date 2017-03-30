@@ -53,7 +53,7 @@ function draw() {
                 coins[i].remove();
                 coinCount += 1;
             }
-            if (coins[i].position.y > height - (coins[i].height/2)) {
+            if (coins[i].position.y > height + (coins[i].height/2)) {
                 coins[i].remove();
                 heartCount -= 1;
             }
